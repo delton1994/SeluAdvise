@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Page-container {
+  display: flex;
+  height: 960px;
+  background-color: grey;
+  align-self: center;
+  background-position: top;
+  background-image: url(https://academicadvising.vcu.edu/media/academic-advising/images/photos/070430_054_jw_alt_ar.jpg);
+  background-repeat: no-repeat;
+}
+
+.content {
+  flex-direction: column;
+  margin: auto;
+  margin-top: 500px;
+  background-color: white;
+  border: 6px solid rgb(19, 226, 212);
+  height: 250px;
+  width: 400px;
+}
+
+.close {
+  color: #00392a;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 1px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.Form-popup {
+  display: none;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  border: 6px solid rgb(19, 226, 212);
+  height: 200px;
+  width: 200px;
+}
